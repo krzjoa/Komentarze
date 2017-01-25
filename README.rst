@@ -13,7 +13,7 @@ Jak używać?
 .. code:: python
 
     from komentarze import Komentarze
-    k = Komentarze('path/to/Komentarze')
+    k = Komentarze('path/to/Komentarze').load()
     df = k.get_dataframe()
     
     print df
