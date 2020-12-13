@@ -10,7 +10,7 @@ Wszystkie komentarze pochodzą z róznych działów portalu Wirtualna Polska.
 ## Jak używać?
 
 ### R
-```
+```R
 source("komentarze.R")
 
 load_komentarze(".")
@@ -33,7 +33,7 @@ load_komentarze(".")
 ```
 
 ### Python
-```
+```python
 from komentarze import Komentarze
 k = Komentarze('path/to/Komentarze').load()
 df = k.get_dataframe()
