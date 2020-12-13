@@ -28,7 +28,7 @@ load_komentarze(".")
  8 Groźby kara… Stryczek !                                                                                          11     4
  9 Groźby kara… Bohater narodowy szkalowany przez prawicę która tylko nienawidzi! Śmierć popierającym PiS to an…     4     2
 10 Groźby kara… Proponuję wysłać do niego pluton specjalny z polonem.                                               12     6
-# … with 5,601 more rows
+# … with 7,013 more rows
 
 ```
 
