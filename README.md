@@ -10,7 +10,7 @@ Wszystkie komentarze pochodzą z róznych działów portalu Wirtualna Polska.
 ## Jak używać?
 
 ### R
-```R
+```r
 source("komentarze.R")
 
 load_komentarze(".")
