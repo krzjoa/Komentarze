@@ -1,5 +1,5 @@
 # Komentarze
-[![cc-by-sa-shield](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)]
+![cc-by-sa-shield](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)
 
 Korpus ręcznie sklasyfikowanych komentarzy do uczenia maszynowego (filtrowanie komentarzy obraźliwych)
 
