@@ -16,7 +16,7 @@ source("komentarze.R")
 
 load_komentarze(".")
 
-# A tibble: 5,611 x 4
+# A tibble: 7,023 x 4
    klasa        komentarz                                                                                          nie   tak
    <chr>        <chr>                                                                                            <int> <int>
  1 Groźby kara… Dziwię się, że Niemcy działają opieszale w sprawie gwałtów przecież nie wyszli chyba z wprawy z…     3    28
