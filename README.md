@@ -10,29 +10,6 @@ Wszystkie komentarze pochodzą z róznych działów portalu Wirtualna Polska.
 
 ## Jak używać?
 
-### R
-```r
-source("komentarze.R")
-
-load_komentarze(".")
-
-# A tibble: 7,023 x 4
-   klasa        komentarz                                                                                          nie   tak
-   <chr>        <chr>                                                                                            <int> <int>
- 1 Groźby kara… Dziwię się, że Niemcy działają opieszale w sprawie gwałtów przecież nie wyszli chyba z wprawy z…     3    28
- 2 Groźby kara… Przywalić atomem tej islamskiej dziczy. Merkel powinna być powieszona publicznie.                    2     7
- 3 Groźby kara… Tu trzeba jasno powiedzieć,wracasz albo kulka.                                                       0    40
- 4 Groźby kara… umrzesz za tydzień                                                                                  16     0
- 5 Groźby kara… wybic do nogi prawie wszystkich arabów , pozostawiając kilku jako eksponaty                          1     1
- 6 Groźby kara… SPALIĆ MECZETY                                                                                       1     1
- 7 Groźby kara… Czas odpalic piece i komory gazowe, szybko zboczencow muzulmanskich osądzać i w dym obracać.         1    14
- 8 Groźby kara… Stryczek !                                                                                          11     4
- 9 Groźby kara… Bohater narodowy szkalowany przez prawicę która tylko nienawidzi! Śmierć popierającym PiS to an…     4     2
-10 Groźby kara… Proponuję wysłać do niego pluton specjalny z polonem.                                               12     6
-# … with 7,013 more rows
-
-```
-
 ### Python
 ```python
 from komentarze import Komentarze
@@ -66,4 +43,28 @@ print df
 
 [7023 rows x 4 columns]
 ```
+
+### R
+```r
+source("komentarze.R")
+
+load_komentarze(".")
+
+# A tibble: 7,023 x 4
+   klasa        komentarz                                                                                          nie   tak
+   <chr>        <chr>                                                                                            <int> <int>
+ 1 Groźby kara… Dziwię się, że Niemcy działają opieszale w sprawie gwałtów przecież nie wyszli chyba z wprawy z…     3    28
+ 2 Groźby kara… Przywalić atomem tej islamskiej dziczy. Merkel powinna być powieszona publicznie.                    2     7
+ 3 Groźby kara… Tu trzeba jasno powiedzieć,wracasz albo kulka.                                                       0    40
+ 4 Groźby kara… umrzesz za tydzień                                                                                  16     0
+ 5 Groźby kara… wybic do nogi prawie wszystkich arabów , pozostawiając kilku jako eksponaty                          1     1
+ 6 Groźby kara… SPALIĆ MECZETY                                                                                       1     1
+ 7 Groźby kara… Czas odpalic piece i komory gazowe, szybko zboczencow muzulmanskich osądzać i w dym obracać.         1    14
+ 8 Groźby kara… Stryczek !                                                                                          11     4
+ 9 Groźby kara… Bohater narodowy szkalowany przez prawicę która tylko nienawidzi! Śmierć popierającym PiS to an…     4     2
+10 Groźby kara… Proponuję wysłać do niego pluton specjalny z polonem.                                               12     6
+# … with 7,013 more rows
+
+```
+
 
